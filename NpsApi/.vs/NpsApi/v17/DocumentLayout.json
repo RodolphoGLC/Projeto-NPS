@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "E:\\Programacao\\C#\\Projeto-NPS\\NpsApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AD032121-951F-4CB8-9E27-6D0A9B6D441D}|NpsApi.csproj|e:\\programacao\\c#\\projeto-nps\\npsapi\\models\\respostas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD032121-951F-4CB8-9E27-6D0A9B6D441D}|NpsApi.csproj|solutionrelative:models\\respostas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD032121-951F-4CB8-9E27-6D0A9B6D441D}|NpsApi.csproj|e:\\programacao\\c#\\projeto-nps\\npsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AD032121-951F-4CB8-9E27-6D0A9B6D441D}|NpsApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD032121-951F-4CB8-9E27-6D0A9B6D441D}|NpsApi.csproj|e:\\programacao\\c#\\projeto-nps\\npsapi\\controllers\\respostascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD032121-951F-4CB8-9E27-6D0A9B6D441D}|NpsApi.csproj|solutionrelative:controllers\\respostascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD032121-951F-4CB8-9E27-6D0A9B6D441D}|NpsApi.csproj|e:\\programacao\\c#\\projeto-nps\\npsapi\\npsapi.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{AD032121-951F-4CB8-9E27-6D0A9B6D441D}|NpsApi.csproj|solutionrelative:npsapi.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD032121-951F-4CB8-9E27-6D0A9B6D441D}|NpsApi.csproj|e:\\programacao\\c#\\projeto-nps\\npsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD032121-951F-4CB8-9E27-6D0A9B6D441D}|NpsApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD032121-951F-4CB8-9E27-6D0A9B6D441D}|NpsApi.csproj|e:\\programacao\\c#\\projeto-nps\\npsapi\\npsapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{AD032121-951F-4CB8-9E27-6D0A9B6D441D}|NpsApi.csproj|solutionrelative:npsapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD032121-951F-4CB8-9E27-6D0A9B6D441D}|NpsApi.csproj|e:\\programacao\\c#\\projeto-nps\\npsapi\\data\\dtos\\respostadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,6 +25,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{AD032121-951F-4CB8-9E27-6D0A9B6D441D}|NpsApi.csproj|e:\\programacao\\c#\\projeto-nps\\npsapi\\data\\npsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD032121-951F-4CB8-9E27-6D0A9B6D441D}|NpsApi.csproj|solutionrelative:data\\npsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD032121-951F-4CB8-9E27-6D0A9B6D441D}|NpsApi.csproj|e:\\programacao\\c#\\projeto-nps\\npsapi\\models\\respostas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD032121-951F-4CB8-9E27-6D0A9B6D441D}|NpsApi.csproj|solutionrelative:models\\respostas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD032121-951F-4CB8-9E27-6D0A9B6D441D}|NpsApi.csproj|e:\\programacao\\c#\\projeto-nps\\npsapi\\controllers\\respostascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD032121-951F-4CB8-9E27-6D0A9B6D441D}|NpsApi.csproj|solutionrelative:controllers\\respostascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,19 +51,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Programacao\\C#\\Projeto-NPS\\NpsApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\Programacao\\C#\\Projeto-NPS\\NpsApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T12:14:07.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NpsApi.http",
+              "DocumentMoniker": "E:\\Programacao\\C#\\Projeto-NPS\\NpsApi\\NpsApi.http",
+              "RelativeDocumentMoniker": "NpsApi.http",
+              "ToolTip": "E:\\Programacao\\C#\\Projeto-NPS\\NpsApi\\NpsApi.http",
+              "RelativeToolTip": "NpsApi.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-08-05T12:13:01.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Programacao\\C#\\Projeto-NPS\\NpsApi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\Programacao\\C#\\Projeto-NPS\\NpsApi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-05T12:12:59.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NpsApi.csproj.Backup.tmp",
+              "DocumentMoniker": "E:\\Programacao\\C#\\Projeto-NPS\\NpsApi\\NpsApi.csproj.Backup.tmp",
+              "RelativeDocumentMoniker": "NpsApi.csproj.Backup.tmp",
+              "ToolTip": "E:\\Programacao\\C#\\Projeto-NPS\\NpsApi\\NpsApi.csproj.Backup.tmp",
+              "RelativeToolTip": "NpsApi.csproj.Backup.tmp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-08-05T12:12:55.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "RespostaDTO.cs",
               "DocumentMoniker": "E:\\Programacao\\C#\\Projeto-NPS\\NpsApi\\Data\\DTOs\\RespostaDTO.cs",
               "RelativeDocumentMoniker": "Data\\DTOs\\RespostaDTO.cs",
               "ToolTip": "E:\\Programacao\\C#\\Projeto-NPS\\NpsApi\\Data\\DTOs\\RespostaDTO.cs",
               "RelativeToolTip": "Data\\DTOs\\RespostaDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-05T11:59:37.619Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "NpsDbContext.cs",
               "DocumentMoniker": "E:\\Programacao\\C#\\Projeto-NPS\\NpsApi\\Data\\NpsDbContext.cs",
               "RelativeDocumentMoniker": "Data\\NpsDbContext.cs",
@@ -60,20 +128,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Respostas.cs",
               "DocumentMoniker": "E:\\Programacao\\C#\\Projeto-NPS\\NpsApi\\Models\\Respostas.cs",
               "RelativeDocumentMoniker": "Models\\Respostas.cs",
               "ToolTip": "E:\\Programacao\\C#\\Projeto-NPS\\NpsApi\\Models\\Respostas.cs",
               "RelativeToolTip": "Models\\Respostas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-05T11:36:52.699Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "RespostasController.cs",
               "DocumentMoniker": "E:\\Programacao\\C#\\Projeto-NPS\\NpsApi\\Controllers\\RespostasController.cs",
               "RelativeDocumentMoniker": "Controllers\\RespostasController.cs",
@@ -81,8 +149,7 @@
               "RelativeToolTip": "Controllers\\RespostasController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T11:36:22.086Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-05T11:36:22.086Z"
             }
           ]
         }
