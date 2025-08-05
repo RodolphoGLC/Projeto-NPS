@@ -1,0 +1,6 @@
+@NpsApi_HostAddress = http://localhost:5118
+
+GET {{NpsApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
