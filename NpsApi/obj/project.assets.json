@@ -3362,11 +3362,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Programacao\\C#\\Projeto-NPS\\NpsApi\\NpsApi.csproj",
+      "projectUniqueName": "E:\\Programacao\\Dotnet\\Projeto-NPS\\NpsApi\\NpsApi.csproj",
       "projectName": "NpsApi",
-      "projectPath": "E:\\Programacao\\C#\\Projeto-NPS\\NpsApi\\NpsApi.csproj",
+      "projectPath": "E:\\Programacao\\Dotnet\\Projeto-NPS\\NpsApi\\NpsApi.csproj",
       "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
-      "outputPath": "E:\\Programacao\\C#\\Projeto-NPS\\NpsApi\\obj\\",
+      "outputPath": "E:\\Programacao\\Dotnet\\Projeto-NPS\\NpsApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

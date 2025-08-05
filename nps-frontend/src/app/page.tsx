@@ -1,5 +1,6 @@
+// Redireciona para /cadastro automaticamente
+import { redirect } from 'next/navigation';
+
 export default function Home() {
-  return (
-    <div> Inicio do front</div>
-  );
+  redirect('/cadastro');
 }

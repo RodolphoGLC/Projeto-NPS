@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using NpsApi.Data;
+using NpsApi.Data.DTOs;
 using NpsApi.Models;
 
 namespace NpsApi.Controllers
@@ -21,6 +22,7 @@ namespace NpsApi.Controllers
         {
             if (resposta.Avaliacao < 0 || resposta.Avaliacao > 5)
                 return BadRequest("Nota deve estar entre 0 e 5.");
+
 
             _context.Respostas.Add(resposta);
             await _context.SaveChangesAsync();
@@ -58,3 +60,4 @@ namespace NpsApi.Controllers
         }
     }
 }
+ 
