@@ -9,5 +9,5 @@ public class NpsDbContext : DbContext
     {
     }
 
-    public DbSet<Respostas> Respostas { get; set; }
+    public DbSet<Resposta> Respostas { get; set; }
 }
