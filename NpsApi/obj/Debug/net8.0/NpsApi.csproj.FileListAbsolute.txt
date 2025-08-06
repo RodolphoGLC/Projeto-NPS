@@ -267,10 +267,10 @@ E:\Programacao\Dotnet\Projeto-NPS\NpsApi\obj\Debug\net8.0\staticwebassets.build.
 E:\Programacao\Dotnet\Projeto-NPS\NpsApi\obj\Debug\net8.0\staticwebassets.build.json.cache
 E:\Programacao\Dotnet\Projeto-NPS\NpsApi\obj\Debug\net8.0\staticwebassets.development.json
 E:\Programacao\Dotnet\Projeto-NPS\NpsApi\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-E:\Programacao\Dotnet\Projeto-NPS\NpsApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 E:\Programacao\Dotnet\Projeto-NPS\NpsApi\obj\Debug\net8.0\NpsApi.csproj.Up2Date
 E:\Programacao\Dotnet\Projeto-NPS\NpsApi\obj\Debug\net8.0\NpsApi.dll
 E:\Programacao\Dotnet\Projeto-NPS\NpsApi\obj\Debug\net8.0\refint\NpsApi.dll
 E:\Programacao\Dotnet\Projeto-NPS\NpsApi\obj\Debug\net8.0\NpsApi.pdb
 E:\Programacao\Dotnet\Projeto-NPS\NpsApi\obj\Debug\net8.0\NpsApi.genruntimeconfig.cache
 E:\Programacao\Dotnet\Projeto-NPS\NpsApi\obj\Debug\net8.0\ref\NpsApi.dll
+E:\Programacao\Dotnet\Projeto-NPS\NpsApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

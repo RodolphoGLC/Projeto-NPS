@@ -20,10 +20,6 @@ namespace NpsApi.Controllers
         [HttpPost]
         public async Task<IActionResult> PostResposta(Resposta resposta)
         {
-            if (resposta.Avaliacao < 0 || resposta.Avaliacao > 5)
-                return BadRequest("Nota deve estar entre 0 e 5.");
-
-
             _context.Respostas.Add(resposta);
             await _context.SaveChangesAsync();
 

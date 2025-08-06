@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("f1945866-f007-417c-b7c7-c01801d7f4f7")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("NpsApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+211f42e2916b3a8f3cacdbaab2741a131d6f44ca")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+957c7a29d4fae56715d6b64d8ca45516b28513ab")]
 [assembly: System.Reflection.AssemblyProductAttribute("NpsApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NpsApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
