@@ -42,6 +42,10 @@ Sendo o total, a soma de todas as avaliações e não apenas dos Promotores e De
 ```
 
 ```
+  npm install
+```
+
+```
   npm run dev 
 ```
 
