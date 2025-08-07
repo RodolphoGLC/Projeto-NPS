@@ -16,8 +16,8 @@ export default function PaginaRelatorio() {
   useEffect(() => {
     async function fetchDados() {
       const [respRespostas, respNps] = await Promise.all([
-        fetch("http://localhost:5118/Respostas"),
-        fetch("http://localhost:5118/Respostas/relatorio"),
+        fetch("http://localhost:5000/Respostas"),
+        fetch("http://localhost:5000/Respostas/relatorio"),
       ]);
 
       const dadosRespostas = await respRespostas.json();
@@ -67,28 +67,6 @@ export default function PaginaRelatorio() {
             </div>
           </div>
 
-          {/* <div className="bg-white rounded-xl shadow p-4 border border-gray-200">
-            <h3 className="text-lg font-semibold mb-4 text-gray-800">Respostas Cadastradas</h3>
-            <table className="w-full table-auto border border-gray-200">
-              <thead>
-                <tr className="bg-gray-100">
-                  <th className="border p-3 text-left">Nome</th>
-                  <th className="border p-3 text-center">Nota</th>
-                  <th className="border p-3 text-left">Comentário</th>
-                </tr>
-              </thead>
-              <tbody>
-                {respostas.map((r, index) => (
-                  <tr key={index} className="hover:bg-gray-50">
-                    <td className="border p-3">{r.nomeProduto}</td>
-                    <td className="border p-3 text-center">{r.avaliacao}</td>
-                    <td className="border p-3">{r.comentario}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div> */}
-
           <div className="bg-white rounded-xl shadow p-4 border border-gray-200">
             <h3 className="text-lg font-semibold mb-4 text-gray-800">
               Respostas Cadastradas
@@ -101,10 +79,10 @@ export default function PaginaRelatorio() {
                   className="border border-gray-200 rounded-lg p-4 shadow-sm hover:shadow-md transition"
                 >
                   <p className="text-sm text-gray-500 mb-1 font-medium">
-                    Produto
+                    Nome do Produto
                   </p>
                   <p className="text-base text-gray-800 font-semibold mb-2 line-clamp-3">
-                    {r.nomeProduto}
+                    {r.nome}
                   </p>
 
                   <p className="text-sm text-gray-500 mb-1 font-medium">Nota</p>

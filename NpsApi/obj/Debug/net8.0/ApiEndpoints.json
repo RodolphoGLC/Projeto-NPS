@@ -8,8 +8,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "resposta",
-        "Type": "NpsApi.Models.Resposta",
+        "Name": "respostaDto",
+        "Type": "NpsApi.Data.DTOs.RespostaDTO",
         "IsRequired": true
       }
     ],

@@ -14,17 +14,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Resposta"
+                "$ref": "#/components/schemas/RespostaDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Resposta"
+                "$ref": "#/components/schemas/RespostaDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Resposta"
+                "$ref": "#/components/schemas/RespostaDTO"
               }
             }
           }
@@ -90,7 +90,7 @@
       "Resposta": {
         "required": [
           "avaliacao",
-          "nomeProduto"
+          "nome"
         ],
         "type": "object",
         "properties": {
@@ -98,7 +98,31 @@
             "type": "integer",
             "format": "int32"
           },
-          "nomeProduto": {
+          "nome": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "avaliacao": {
+            "maximum": 5,
+            "minimum": 0,
+            "type": "integer",
+            "format": "int32"
+          },
+          "comentario": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RespostaDTO": {
+        "required": [
+          "avaliacao",
+          "nome"
+        ],
+        "type": "object",
+        "properties": {
+          "nome": {
             "minLength": 1,
             "type": "string"
           },

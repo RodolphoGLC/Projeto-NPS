@@ -1,12 +1,12 @@
 // Consumir a API
 
-const BASE_URL = "http://localhost:5118"
+const BASE_URL = "http://localhost:5000"
 
 // Interfaces dos modelos 
 
 export interface Resposta {
     id: number;
-    nomeProduto: string;
+    nome: string;
     avaliacao: number;
     comentario: string;
 }

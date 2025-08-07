@@ -12,11 +12,11 @@ export default function PaginaCadastro() {
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
 
-    const response = await fetch("http://localhost:5118/Respostas", {
+    const response = await fetch("http://localhost:5000/Respostas", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        NomeProduto: nome,
+        Nome: nome,
         Avaliacao: avaliacao ? Number(avaliacao) : 1000,
         Comentario: observacao ?? "-",
       }),
@@ -91,7 +91,7 @@ export default function PaginaCadastro() {
               Cadastrar
             </button>
             {mensagem && (
-              <p className="mt-4 text-sm text-red-700">{mensagem}</p>
+              <p className="mt-4 text-sm text-gray-700">{mensagem}</p>
             )}
           </form>
         </div>

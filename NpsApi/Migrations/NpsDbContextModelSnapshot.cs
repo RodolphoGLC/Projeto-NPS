@@ -35,7 +35,7 @@ namespace NpsApi.Migrations
                     b.Property<string>("Comentario")
                         .HasColumnType("text");
 
-                    b.Property<string>("NomeProduto")
+                    b.Property<string>("Nome")
                         .IsRequired()
                         .HasColumnType("text");
 

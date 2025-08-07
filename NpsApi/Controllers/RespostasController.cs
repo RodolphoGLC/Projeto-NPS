@@ -18,8 +18,15 @@ namespace NpsApi.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> PostResposta(Resposta resposta)
+        public async Task<IActionResult> PostResposta(RespostaDTO respostaDto)
         {
+            var resposta = new Resposta
+            {
+                Nome = respostaDto.Nome,
+                Avaliacao = respostaDto.Avaliacao,
+                Comentario = respostaDto.Comentario
+            };
+
             _context.Respostas.Add(resposta);
             await _context.SaveChangesAsync();
 
