@@ -2,13 +2,34 @@
 
 API em .NET para gerenciamento de NPS (Net Promoter Score).
 
+O NPS nada mais é do que uma forma de medir a satisfação dos clientes para alguma coisa (seja produtos, serviços e afins). Ele se da a partir de uma avaliação dos clientes quanto ao que queremos medir a avaliação, o calculo do mesmo segue os parametros abaixo
+
+- Promotores: 4 - 5 (são os clientes que avaliaram de forma positiva)
+- Neutros: 3 (clientes satisfeitos, mas que não viram um diferencial)
+- Detratores 0 - 2 (clientes que não gostaram do produto ou serviço)
+
+Com esses dados usamos a formula abaixo para fazer o calculo do NPS:
+
+NPS = Promotores/Total - Detratores/Total
+
+Sendo o total, a soma de todas as avaliações e não apenas dos Promotores e Detratores
+
+---
+
+## Tecnologias
+
+- Dotnet
+- NextJs
+- Postgres
+- Docker
+
 ---
 
 ## Requisitos
 
-- Windows (PowerShell)
-- [Docker Desktop](https://www.docker.com/products/docker-desktop) instalado e configurado
-- .NET SDK 9.0 instalado localmente (opcional, mas útil para testes locais)
+- [Docker Desktop](https://www.docker.com/products/docker-desktop) - instalado e configurado
+- Postgres - instalado e configurado
+- .Net 8.0 ou superior
 
 ---
 
