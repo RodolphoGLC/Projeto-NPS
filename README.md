@@ -28,8 +28,8 @@ Sendo o total, a soma de todas as avaliações e não apenas dos Promotores e De
 ## Requisitos
 
 - [Docker Desktop](https://www.docker.com/products/docker-desktop) - instalado e configurado
-- Postgres - instalado e configurado
-- .Net 8.0 ou superior
+- [Postgres](https://www.postgresql.org/download/) - instalado e configurado
+- [.Net 8.0 ou superior](https://dotnet.microsoft.com/en-us/download)
 
 ---
 
@@ -48,11 +48,11 @@ Sendo o total, a soma de todas as avaliações e não apenas dos Promotores e De
 
 2. Rode a api, seguindo os passos abaixo
 
+Antes de tudo, garanta que o arquivo appsettings.json esteja com as informações corretar de usuário e senha do postgres
+
 ``` 
   cd .\NpsApi\ 
 ```
-
-Garanta que o arquivo appsettings.json esteja com as informações corretar de usuário e senha do postgres
 
 (Opcional - o codigo abaixo, rode se quiser fazer a sua propria migrations)
 ``` 
