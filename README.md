@@ -67,6 +67,8 @@ Antes de tudo, garanta que o arquivo appsettings.json esteja com as informaçõe
   dotnet run
 ```
 
+---
+
 ## Rodando Docker (ainda não está operando a parte do banco de dados)
 
 1. Garanta que as informações dos arquivos Dockerfile e docker-compose estejam corretas
